@@ -24,7 +24,7 @@ module CriticalPathCss
 
       Phantomjs.run(
         '--ignore-ssl-errors=true',
-        '--ssl-protocol=tlsv1',
+        '--ssl-protocol=any',
         PENTHOUSE_PATH,
         url,
         @config.css_path
